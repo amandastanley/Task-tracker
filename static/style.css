@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+html{
+  background-size:cover;
+  //background-image:url('marble.png');
+  background-image:url('darkmarble.jpg');
+}
+.titlecolor{
+  background: -webkit-linear-gradient(0deg,#fcb1b1,#fcb1b1,#fcdbb1,#eff78c,#c9f78c,#96f7d2,#96c3f7,#f5b5fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width:99vw;
+  height:fit-content;
+  text-align:center;
+  margin:auto;
+  //-webkit-text-stroke-width: 0.0001px;
+  //-webkit-text-stroke-color: black; 
+  //got this code from: https://cssgradient.io/blog/css-gradient-text/
+  letter-spacing:3px;
+}
+h1{
+  font-size:7vw;
+  font-family: 'Berkshire Swash', cursive;
+  word-spacing:10px;
+  letter-spacing:2px;
+}
+
+.labelsforchart{
+  background: -webkit-linear-gradient(270deg,#fcb1b1,#fcb1b1,#fcdbb1,#eff78c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: auto;
+  height: fit-content;
+  font-size: 5.5vw;
+  font-family: 'Berkshire Swash', cursive;
+  //-webkit-text-stroke-width: 0.0001px;
+  //-webkit-text-stroke-color: black;
+  text-align: center;
+  //text-decoration: black wavy;
+  letter-spacing:2px;
+}
+.duedate{
+  background: -webkit-linear-gradient(270deg,#eff78c,#c9f78c,#96f7d2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+input{
+  background:transparent;
+  text-align: center;
+  font-size:4vw;
+  font-family: 'Berkshire Swash', cursive;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:white; 
+  border-radius: 50%;
+  z-index:2;
+  display:block;
+  width:20vw;
+  margin:auto;
+  height:10vh;
+  border: black 3vw;
+  background: -webkit-linear-gradient(45deg,#fcb1b1,#fcb1b1,#fcdbb1,#eff78c);
+  -webkit-text-stroke-width: 0.0001px;
+  -webkit-text-stroke-color: black;
+  align-content: center;
+}
+.budget{
+  background: -webkit-linear-gradient(270deg,#96f7d2,#96c3f7,#f5b5fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.submitthing{
+  background: -webkit-linear-gradient(-45deg,#fcb1b1,#fcdbb1,#eff78c,#c9f78c,#96f7d2,#96c3f7,#f5b5fc);
+  text-align: center;
+  align-content: center;
+}
+.toppane{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 9vh 24vh auto auto 1vh auto auto;
+  //margin: auto;
+  justify-content: center;
+  background-image:url('darkmarble.jpeg');
+  //background-size:cover;
+}
+.title{
+  grid-column: 1 / span 3;
+}
+.button{
+  grid-column: 1 / span 3;
+  grid-row: 5 / span 2;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+form{
+  display:block;
+  margin:auto;
+  position:fixed;
+  left:5vw;
+}
+table{
+  align-content: space-around;
+  left:3vw;
+  margin-top:auto;
+}
+.left{
+  background: -webkit-linear-gradient(45deg,#fcb1b1,#fcb1b1,#fcdbb1,#eff78c);
+  grid-column: 1 / span 1;
+  grid-row: 3/ span 1;
+  
+}
+.middle{
+  background: -webkit-linear-gradient(45deg,#eff78c,#c9f78c,#96f7d2);
+  grid-column: 2 / span 1;
+  grid-row: 3/ span 1;
+}
+.right{
+  background: -webkit-linear-gradient(45deg,#96f7d2,#96c3f7,#f5b5fc);
+  grid-column: 3 / span 1;
+  grid-row: 3/ span 1;
+}
+.bottompane{
+  background-image:url('marble.png');
+  position:relative;
+  margin: auto;
+  justify-content: center;
+  background-size: cover;
+  padding: 14px 0px 14px 0px;
+}
+.item{
+  display:flex;
+  margin:auto;
+  justify-content: space-between;
+  margin-top:1vh;
+  //padding:auto;
+}
+
+.tasks .left{
+  margin:auto;
+  background:transparent;
+  text-align: center;
+  font-size:4vw;
+  font-family: 'Berkshire Swash', cursive;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:white; 
+  border-radius: 50%;
+  z-index:2;
+  display:block;
+  width:20vw;
+  height:10vh;
+  border: black 3vw;
+  background: -webkit-linear-gradient(45deg,#fcb1b1,#fcb1b1,#fcdbb1,#eff78c);
+  -webkit-text-stroke-width: 0.0001px;
+  -webkit-text-stroke-color: black;  
+}
+.tasks .middle{
+  margin:auto;
+  background:transparent;
+  text-align: center;
+  font-size:4vw;
+  font-family: 'Berkshire Swash', cursive;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:white; 
+  border-radius: 50%;
+  z-index:2;
+  display:block;
+  width:20vw;
+  height:10vh;
+  border: black 3vw;
+  -webkit-text-stroke-width: 0.0001px;
+  -webkit-text-stroke-color: black;
+  background: -webkit-linear-gradient(45deg,#eff78c,#c9f78c,#96f7d2);
+}
+.tasks .right{
+  margin:auto;
+  background:transparent;
+  text-align: center;
+  font-size:4vw;
+  font-family: 'Berkshire Swash', cursive;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:white; 
+  border-radius: 50%;
+  z-index:2;
+  display:block;
+  width:20vw;
+  height:10vh;
+  border: black 3vw;
+  -webkit-text-stroke-width: 0.0001px;
+  -webkit-text-stroke-color: black;
+  background: -webkit-linear-gradient(45deg,#96f7d2,#96c3f7,#f5b5fc);
+}

@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="/static/style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/static/script.js"></script>
+    <div class="toppane">
+      <div class="title"><h1 class="titlecolor"> Welcome to my Task Tracker</h1></div>
+      <table>
+        <h2 class="labelsforchart">Tasks</h2>
+        <h2 class="labelsforchart duedate"> Due-Dates</h2>
+        <h2 class="labelsforchart budget"> Budget</h2>
+        <form action="/addtask" method="POST" id="formthing">
+          <div class="button"><input type="submit" value="Submit" class="submitthing"></div>
+          <input name="task" class="left">
+          <input name="duedate" class="middle">
+          <input name="budget" class="right">
+        </form>
+      </table>
+    </div>
+    <div class="bottompane">
+      <div class="thingsihaveputin">
+      
+      </div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+Python:
+
+1.Figure out flask thing[check]
+2.figure out additem, remove item, updateitem functions[]
+3.make it so it uses inputs from html to python and save then back to html[check]
+4.Do number 3 on web design (backend part)[]
+5.Do number 6 on web design (backend part)[]
+6.make it save it []
+
+Web Design:
+
+1. color scheme [check]
+2. design layout [check]
+3. Figure out changing color based on date[]
+4. make animation for title/(color changing)[]
+5. make input for tasks and dates[check]
+6. make budget bars[]
+
