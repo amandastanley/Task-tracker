@@ -76,6 +76,6 @@ print(data)
 with open('tasks.txt', 'w') as outfile:
     json.dump(data, outfile)
 #test()
-app.run()
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='8080')
