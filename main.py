@@ -3,7 +3,7 @@ from flask import jsonify
 import json
 from flask import request
 
-app = Flask(__name__, static_folder='.', root_path='/home/runner')
+app = Flask(__name__, static_folder='.')
 
 @app.route('/test/json')
 def testJson ():
@@ -76,5 +76,6 @@ print(data)
 with open('tasks.txt', 'w') as outfile:
     json.dump(data, outfile)
 #test()
+app.run()
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='8080')
